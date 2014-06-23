@@ -26,6 +26,8 @@
   "homepage": "https://github.com/gmaiztegi/ekhin14-3",
   "private": "true",
   "dependencies": {
-    "express": "4.4.3"
+    "express": "4.4.3",
+    "forever": "0.11.1",
+    "serve-favicon": "latest"
   }
 }

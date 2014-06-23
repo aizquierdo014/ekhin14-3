@@ -1,8 +1,11 @@
 var express = require('express'),
     app = express();
 
+//Express settings
+require('./config/express')(app);
+
 app.get('/', function(req, res) {
-    res.send('¡Hola, mundo!');
+    res.send('ola q ase');
 });
 
 var server = app.listen(process.env.PORT || 3000, function() {
